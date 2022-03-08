@@ -1,9 +1,8 @@
-/* general page properties */
+/* general page styling */
 
 .page {
     display: flex;
     flex-direction: column;
-    font: roboto;
 }
 
 a,
@@ -12,7 +11,7 @@ ul {
     margin: 0;
 }
 
-/* header properties */
+/* header styling */
 
 .header {
     display: flex;
@@ -47,3 +46,5 @@ a.right:link {
     display: flex;
     gap: 16px;
 }    
+
+/* first section styling */
