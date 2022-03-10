@@ -15,7 +15,7 @@ ul {
 
 .header {
     display: flex;
-    padding: 24px;
+    padding: 24px 48px;
     background-color: #1f2937;
 }
 
@@ -49,3 +49,47 @@ a.right:link {
 
 /* first section styling */
 
+.one {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 48px;
+}
+
+.oneleft {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 50%;
+}
+
+.oneright {
+    display: flex;
+}
+
+.subheader {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+background-color: #3882f6;
+width: 100px;
+color: #f9faf8;
+border-radius: 25px;
+padding: 4px;
+margin-top: 8px;
+}
+
+.oneright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 50%;
+}
